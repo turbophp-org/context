@@ -1,0 +1,37 @@
+{
+  "name": "turbophp-org/context",
+  "description": "TurboPHP 框架上下文管理库，提供统一的请求上下文存储和访问接口，支持全局状态管理与数据传递。",
+  "license": "Apache-2.0",
+  "keywords": [
+    "php",
+    "turbophp",
+    "framework",
+    "context",
+    "request",
+    "scope",
+    "state"
+  ],
+  "homepage": "https://turbophp.org",
+  "support": {
+    "issues": "https://github.com/turbophp-org/context/issues",
+    "source": "https://github.com/turbophp-org/context",
+    "docs": "https://turbophp.org/docs",
+    "pull-request": "https://github.com/turbophp-org/context/pulls"
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TurboPHP\\Context\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0-dev"
+    }
+  }
+}
